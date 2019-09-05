@@ -1,0 +1,17 @@
+[debug] [2019-08-23T10:25:36.515Z] ----------------------------------------------------------------------
+[debug] [2019-08-23T10:25:36.519Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tmp_sall14397\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-08-23T10:25:36.519Z] CLI Version:   7.2.4
+[debug] [2019-08-23T10:25:36.519Z] Platform:      win32
+[debug] [2019-08-23T10:25:36.519Z] Node Version:  v12.6.0
+[debug] [2019-08-23T10:25:36.522Z] Time:          Fri Aug 23 2019 10:25:36 GMT+0000 (GMT)
+[debug] [2019-08-23T10:25:36.522Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-23T10:25:36.535Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-23T10:25:36.536Z] > authorizing via signed-in user
+[debug] [2019-08-23T10:25:36.536Z] [iam] checking project reactfirebasetest-2e6ea for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]
+[debug] [2019-08-23T10:25:36.538Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/reactfirebasetest-2e6ea:testIamPermissions  
+
+[debug] [2019-08-23T10:25:58.024Z] Error: connect ETIMEDOUT 74.125.193.95:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 74.125.193.95:443
